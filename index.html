@@ -14,36 +14,38 @@
         <header>CALCULATOR</header>
         <div class="calculatorDiv">
 
-            <table>
-                <tr class="result">
-                    <td id="firstNum"></td>
-                    <td id="operand"></td>
-                    <td id="secondNum"></td>
-                </tr>
-                <tr class="numRow">
-                    <td>7</td>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>+</td>
-                </tr>
-                <tr class="numRow">
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>-</td>
-                </tr>
-                <tr class="numRow">
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>X</td>
-                </tr>
-                <tr class="numRow">
-                    <td>0</td>
-                    <td>.</td>
-                    <td>=</td>
-                </tr>
-            </table>
+            <div>
+                <div id="result">0</div>
+                <div class="numberRow">
+                    <button class="buttonValue" onClick="setClickedValue(this)">AC</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">C</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">+/-</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">+</button>
+                </div>
+                <div class="numberRow">
+                    <button class="buttonValue" onClick="setClickedValue(this)">7</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">8</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">9</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">-</button>
+                </div>
+                <div class="numberRow">
+                    <button class="buttonValue" onClick="setClickedValue(this)">4</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">5</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">6</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">*</button>
+                </div>
+                <div class="numberRow">
+                    <button class="buttonValue" onClick="setClickedValue(this)">1</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">2</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">3</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">/</button>
+                </div>
+                <div class="numberRow">
+                    <button class="buttonValue" onClick="setClickedValue(this)">0</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">.</button>
+                    <button class="buttonValue" onClick="setClickedValue(this)">=</button>
+                </div>
+            </div>
 
         </div>
     </div>

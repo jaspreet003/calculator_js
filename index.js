@@ -4,6 +4,7 @@ let operand = "";
 
 let secondNumber = 0;
 
+let result = document.getElementById('result');
 
 function add(num1, num2) {
 
@@ -39,5 +40,12 @@ function operate(operator, num1, num2) {
     } else if (operator == "/") {
         return divide(num1, num2);
     }
-    
+
 }
+
+function setClickedValue(button) {
+
+    result.innerHTML = button.innerHTML;
+
+}
+

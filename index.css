@@ -2,3 +2,7 @@
     border: 1px solid black;
 }
 
+.buttonValue {
+    width: 50px;
+    height: 30px;
+}
